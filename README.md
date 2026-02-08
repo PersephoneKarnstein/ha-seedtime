@@ -25,7 +25,8 @@ A custom Home Assistant integration that connects to [Seedtime.us](https://seedt
 1. Open HACS in your HA instance
 2. Go to **Integrations** > three-dot menu > **Custom repositories**
 3. Add `https://github.com/PersephoneKarnstein/ha-seedtime` with category **Integration**
-4. Search for "Seedtime" and install
+4. Search for "Seedtime Garden Planner" and install
+5. Restart Home Assistant
 
 ### Manual Installation
 
