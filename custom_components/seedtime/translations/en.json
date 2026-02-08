@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Seedtime",
+        "description": "Enter your Seedtime account credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reauthenticate with Seedtime",
+        "description": "Your session has expired. Please re-enter your password for {email}.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Cannot connect to Seedtime. Please check your network.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This Seedtime account is already configured.",
+      "reauth_successful": "Reauthentication successful."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Seedtime Options",
+        "data": {
+          "enable_calendar": "Enable calendar entity",
+          "scan_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}
