@@ -1,10 +1,10 @@
 {
   "domain": "seedtime",
   "name": "Seedtime Garden Planner",
-  "codeowners": [
-    "@PersephoneKarnstein"
-  ],
+  "after_dependencies": ["frontend"],
+  "codeowners": ["@PersephoneKarnstein"],
   "config_flow": true,
+  "dependencies": ["http"],
   "documentation": "https://github.com/PersephoneKarnstein/ha-seedtime",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/PersephoneKarnstein/ha-seedtime/issues",
